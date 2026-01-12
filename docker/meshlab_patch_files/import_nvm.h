@@ -75,6 +75,7 @@ static void readline(FILE *fp, char *line, int max=1000){
     line[i] = '\0'; //end of string
 }
 
+// 修改，去除了ReadHeader的一个重载
 static bool ReadHeader(FILE *fp,unsigned int &num_cams){
     char line[1000];
     readline(fp, line);
