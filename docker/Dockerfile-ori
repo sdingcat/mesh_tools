@@ -1,4 +1,4 @@
-FROM ubuntu:20.04 AS base
+FROM ubuntu:18.04 AS base
 LABEL mantainer="Brendan Celii <brendanacelii@gmail.com>"
 # Deal with pesky Python 3 encoding issue
 ENV LANG C.UTF-8
